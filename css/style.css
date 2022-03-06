@@ -50,6 +50,11 @@ input[type=number] {
     color: #1073d0;
     font-size: 30px;
 }
+input[type=number]:focus {
+    background-color: #ffffff;
+    border: 2px solid orange;
+    outline: none;
+}
 @media screen and (max-width:1200px) {
     section{
         width: 70%;
