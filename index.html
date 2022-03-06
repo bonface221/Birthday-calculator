@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="../css/style.css">
     <title>Birthday-calculator</title>
 </head>
+
 <body>
     <section>
         <form action="#">
@@ -22,26 +24,28 @@
             </div>
             <div id="main">
                 <div>
-                    <label for="day">Day</label><br>
-                    <input type="number" name="day" id="day" min="1" max="31" required placeholder="dd" maxlength="2">
+                    <label for="day">Date</label><br>
+                    <input type="text" name="date" id="date" required placeholder="dd" maxlength="2">
                 </div>
                 <div>
                     <label for="month">Month</label><br>
-                    <input type="number" name="month" id="month" min="1" max="12" required placeholder="mm">
+                    <input type="text" name="month" id="month" required placeholder="mm" maxlength="2">
                 </div>
                 <div>
                     <label for="year">Year</label><br>
-                    <input type="number" name="year" id="year" required placeholder="yyyy" >
+                    <input type="text" name="year" id="year" required placeholder="yyyy" maxlength="4">
                 </div>
-                
+
             </div>
-            <div id="btn">
-                <input type="submit" value="generate" onclick="day()">
+            <div>
+                <input type="submit" id="btnsum" value="generate">
             </div>
+            <div id="title"></div>
             <div id="birthname"></div>
         </form>
     </section>
 
     <script src="../js/script.js"></script>
 </body>
+
 </html>
