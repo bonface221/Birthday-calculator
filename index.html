@@ -4,11 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <title>Birthday-calculator</title>
 </head>
 <body>
+    <section>
+        <form action="#">
+            <div id="header">
+                BIRTHDAY DAY CALCULATOR
+            </div>
+            <div class="genda">
+                <p>gender</p>
+                <input type="radio" name="gender" id="male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="female">
+                <label for="female">Female</label>
+            </div>
+            <div id="main">
+                <div>
+                    <label for="day">Day</label><br>
+                    <input type="number" name="day" id="day" min="1" max="31" required placeholder="dd" maxlength="2">
+                </div>
+                <div>
+                    <label for="month">Month</label><br>
+                    <input type="number" name="month" id="month" min="1" max="12" required placeholder="mm">
+                </div>
+                <div>
+                    <label for="year">Year</label><br>
+                    <input type="number" name="year" id="year" required placeholder="yyyy" >
+                </div>
+                
+            </div>
+            <div id="btn">
+                <input type="submit" value="calculate">
+            </div>
+        </form>
+    </section>
 
-    <script src="./js/script.js"></script>
+    <script src="../js/script.js"></script>
 </body>
 </html>
