@@ -14,7 +14,8 @@ section {
     border: 2px solid #464E44;
     padding: 10px;
     width: 40%;
-    height: 50%;
+    height: 52%;
+    padding-left: 20px;
     
 }
 #main{
@@ -54,6 +55,24 @@ input[type=number]:focus {
     background-color: #ffffff;
     border: 2px solid orange;
     outline: none;
+}
+input[type=submit] {
+    width: 150px;
+    
+    margin-top: 0px;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    background-color: #0761b6;
+    color: #ffffff;
+    padding: 14px 16px;
+    text-align: center;
+
+    font-size: 30px;
+}
+
+input[type=submit]:hover {
+    background-color: #003669;
 }
 @media screen and (max-width:1200px) {
     section{
