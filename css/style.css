@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 30px;
+    
+}
+
+section {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid #464E44;
+    padding: 10px;
+    width: 50%;
+    height: 60%;
+    
+}
+#main{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0px;
+    flex-wrap: wrap;
+    
+}
+#header{
+    width: 100%;
+    padding: 10px 0px 50px 0px
+}
+.genda p{
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+#btn{
+    padding-bottom: 15px;
+}
+
+@media screen and (max-width:1200px) {
+    section{
+        width: 70%;
+        height: auto;
+        padding-left: 20px;
+    }
+    #main{
+        display: block;
+    }
+    #main div{
+        padding-top: 20px;
+    }
+     #main div:first-child {
+         padding-top: 0px;
+     }
+    
+}
+@media screen and (max-width:600px) {
+    section{
+         position: absolute;
+         left: 0%;
+         top: 0%;
+         transform: translate(0%, 0%);
+         border: 2px solid #464E44;
+         padding: 10px;
+         width: 100%;
+         height: 100%;
+         padding-left: 30px;
+
+         }
+    #main{
+        display: block;
+        
+    }
+    #main div {
+        padding-top: 40px;
+    }
+    #main div:first-child {
+        padding-top: 0px;
+    }
+ }
+
