@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-size: 30px;
     
+    
 }
 
 section {
@@ -16,13 +17,17 @@ section {
     width: 40%;
     height: auto;
     padding-left: 20px;
+    background-color: darkkhaki;
+    
     
 }
+
 #main{
     display: flex;
     
     padding: 50px 0px;
     flex-wrap: wrap;
+    
     
 }
 #main div{
@@ -30,11 +35,16 @@ section {
 }
 #header{
     width: 100%;
-    padding: 10px 0px 50px 0px
+    color: #1073d0;
+    font-weight: bold;
+    
+    
 }
 .genda p{
     font-size: 35px;
     padding-bottom: 10px;
+    text-decoration: underline;
+    color: white;
 }
 #btn{
     padding-bottom: 15px;
