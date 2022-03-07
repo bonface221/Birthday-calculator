@@ -15,7 +15,7 @@
 This is a web app that calculates the day of birth and gives you a name
 that corresponds t0 the Ghananian's naming convention.
 
-![image](images/calculatorPic.png)
+![image](../images/calculatorPic.png)
 
 ## Installation requirements
 You don't need to install anything you only need internet connection
